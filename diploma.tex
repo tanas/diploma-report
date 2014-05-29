@@ -19,6 +19,7 @@
 \usepackage{hyphenat}
 \usepackage{setspace}
 \usepackage{fancyhdr}
+\usepackage{float}
 
 \pagestyle{fancyplain}
 \fancyhf{}
@@ -28,6 +29,7 @@
 \linespread{1.15}
 \floatname{algorithm}{Алгоритм}
 
+
 \addto\captionsrussian{\renewcommand{\contentsname}{СОДЕРЖАНИЕ}}
 
 % new commands
@@ -35,23 +37,23 @@
 
 \begin{document}
 
-%\input{title.tex}
+\input{title.tex}
 %\input{abstract.tex}
 %\input{annotation.tex}
 %\input{feedback.tex}
 %\input{review.tex}
 
-%\setcounter{page}{5}
-%\tableofcontents
-%\newpage
+\setcounter{page}{5}
+\tableofcontents
+\newpage
 
 %\input{introduction.tex}
-%\input{1.tex}
-%\input{2.tex}
+\input{1.tex}
+\input{2.tex}
 %\input{tech.tex}
 %\input{laborprotection.tex}
-%\input{economics.tex}
 \input{ot.tex}
+\input{economics.tex}
 %\input{conclusion.tex}
 %\input{bibliography.tex}
 
